@@ -20,7 +20,7 @@
 
 @media (min-width:600px) {
     .main {
-        max-width: 450px;
+        max-width: 750px;
         margin: 25px auto;
     }
 }
@@ -30,7 +30,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-size: 16px;
-    font-family: 'Outfit', 'Young Serif', serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 body {
@@ -45,18 +45,62 @@ img {
 section,
 hr,
 p {
-    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
 }
 
 .main {
     padding: 1.5rem;
     background-color: var(--White);
-    color: var(--Light-Grey);
+    color: var(--Dark-Charcoal);
     border-radius: 15px;
+    line-height: 1.5em;
+    font-weight: 100;
 }
 
-#Introduction header {
-    font-size: 2rem;
-    color: var(--Dark-Charcoal);
-    margin: 15px 0 5px 0;
+.young_serif {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
 }
+
+header {
+    margin: 25px 0;
+    font-size: 1.5rem;
+    color: var(--Nutmeg);
+}
+
+#introduction header {
+    font-size: 1.8rem;
+    color: var(--Dark-Charcoal);
+}
+
+.prep-time{
+    color: var(--Dark-Raspberry);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+ol, ul{
+    padding-left: 85px;
+}
+
+ul li::marker, ol li::marker{
+    color: var(--Nutmeg);
+    font-weight: 800;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.move-left{
+    margin-left: 15px;
+}
+
+/*
+table {
+    display: block;
+}
+caption{
+    width: 100%;
+}
+*/
