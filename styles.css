@@ -44,7 +44,7 @@ img {
 
 section,
 hr,
-p {
+#introduction p {
     margin-bottom: 3.5rem;
 }
 
@@ -55,6 +55,7 @@ p {
     border-radius: 15px;
     line-height: 1.5em;
     font-weight: 100;
+    min-width: 350px;
 }
 
 .young_serif {
@@ -73,29 +74,46 @@ header {
     color: var(--Dark-Charcoal);
 }
 
-.prep-time{
+.prep-time {
     color: var(--Dark-Raspberry);
     margin-bottom: 10px;
     font-weight: 400;
 }
 
-ol, ul{
-    padding-left: 85px;
+ol,
+ul {
+    list-style-position: outside;
+    padding-left: 75px;
 }
 
-ul li::marker, ol li::marker{
+li {
+    margin-left: 1.9rem;
+}
+
+li::marker {
     color: var(--Nutmeg);
     font-weight: 800;
 }
 
-.bold{
+.bold {
     font-weight: 800;
 }
 
-.move-left{
-    margin-left: 15px;
+.split2 {
+    display: inline-block;
+    width: 50%;
 }
 
+.border_bottom {
+    border-bottom: 1px solid var(--Light-Grey);
+    display: flex;
+    justify-items: center;
+    height: 2.2rem;
+}
+
+.margin{
+    margin: -35px 0 15px 0;
+}
 /*
 table {
     display: block;
